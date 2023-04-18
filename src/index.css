@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  /* background: linear-gradient(papayawhip, white); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("data:image/jpeg;base64,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");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.heading {
+  font-size: 20px; 
+  color:black;
+  height: fit-content;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 200px; /* You can adjust the width and height to fit your needs */
+  height: 200px;
+}
+
+

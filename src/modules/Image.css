@@ -1,0 +1,45 @@
+.rounded-circle {
+  border-radius: 50%;
+  width: 100px;
+  position: absolute;
+  top: -285%;
+  left: 33%; 
+}
+
+/* .blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+} */
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
+}
+
+.vh-10{
+  
+  height: 50px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+
+.font-italic{
+  font-size: 18px;
+}
+
+.overview{
+  font-size: 18px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdolHb_bs7_dvSeU08RagxKqBYQ7hv8devo4fUD502sinusRz82dGZ1fEhqF2X-yTXSQ&usqp=CAU");
+}
